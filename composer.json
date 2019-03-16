@@ -1,0 +1,22 @@
+{
+    "name": "codingjungle/database",
+    "description": "A simple db class for pdo-mysql.",
+    "keywords": [
+        "database", "db"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael S. Edwards",
+            "email": "codingjungle@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Codingjungle\\Database\\": "src/"
+        }
+    }
+}
